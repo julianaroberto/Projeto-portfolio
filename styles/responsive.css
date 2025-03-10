@@ -1,13 +1,20 @@
-* {
-    margin: 0;
-    padding: 0;
+
+.container {
+    width: 90%;
+    margin: auto;
 }
 
-/* Ajuste do layout para telas menores */
+/* Ajuste para notebooks */
+@media screen and (max-width: 1366px) {
+    .container {
+        width: 85%;
+    }
+}
+
+/* Ajuste para tablets */
 @media screen and (max-width: 1024px) {
     .container {
-        width: 80%;
-        margin: auto;
+        width: 90%;
     }
     .service, .contact-box, .social-box {
         flex-direction: column;
@@ -19,35 +26,15 @@
     .service .text, .contact-box p {
         width: 100%;
     }
-}
-
-/* Ajuste para tablets */
-@media screen and (max-width: 768px) {
-    nav ul {
+    nav {
         display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    nav ul li {
-        margin-bottom: 10px;
-    }
-    .paragrafo, .container__h2 {
-        padding: 3%;
-        width: 100%;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    footer {
-        padding: 2%;
-        margin: auto;
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
-/* Ajuste para celulares */
-@media screen and (max-width: 480px) {
+/* Ajuste para celulares (Android e iOS) */
+@media screen and (max-width: 768px) {
     h2, h3 {
         font-size: 1.2em;
     }
@@ -58,5 +45,25 @@
         display: block;
         width: 80%;
         margin: 10px auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    nav ul li:last-child {
+        border-bottom: none;
     }
 }
