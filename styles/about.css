@@ -60,14 +60,31 @@ nav ul li a {
     max-width: 800px;
     margin: 50px auto;
 }
+
+h2 {
+    padding-bottom: 1%;
+    font-family: var(--fonte-titulos);
+    color: var(--cor-secundaria);
+}
 .timeline-item {
-    padding: 20px;
+    padding: 2%;
     position: relative;
     width: 80%;
     background: var(--box-color);
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item__h3 {
+    padding: 1%;
+    font-family: var(--fonte-titulos);
+    color: var(--cor-secundaria);
+}
+.timeline-item__h3__p {
+    padding: 1%;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
 }
 .timeline-item img {
     width: 100%;
