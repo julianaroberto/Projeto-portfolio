@@ -22,8 +22,6 @@
         body {
             background-color: var(--bg-color);
             font-family: var(--fonte-primaria);
-            margin: 0;
-            padding: 0;
             text-align: center;
         }
         header {
@@ -57,9 +55,20 @@
 
         }
         .container {
-            max-width: 1000px;
-            margin: 50px auto;
+            max-width: 80%;
+            margin: 10px auto;
             padding: 20px;
+        }
+
+       .container__h2, .service__h3 {
+            padding: 3%;
+            font-family: var(--fonte-titulos);
+            color: var(--cor-secundaria);
+        }
+        .service__p {
+            padding: 1%;
+            font-family: var(--fonte-primaria);
+            color: var(--cor-secundaria);
         }
         .service {
             display: flex;
