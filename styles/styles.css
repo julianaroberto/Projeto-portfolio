@@ -25,6 +25,7 @@
             text-align: center;
         }
         header {
+            width: 100%;
             background-color: var(--cor-primaria);
             padding: 25px;
         }
@@ -76,13 +77,13 @@
             color: var(--cor-secundaria);
         }
         footer {
+            width: 100%;
             background-color: var(--cor-secundaria);
             color: var(--bg-color);
             font-family: var(--fonte-primaria);
             padding: 1%;
             position: relative;
             bottom: 0;
-            width: 100%;
             margin-top: 2%;
         }
 

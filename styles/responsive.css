@@ -3,7 +3,14 @@
     width: 90%;
     margin: auto;
 }
+nav {
+    width: 100%;
+}
 
+.rodape {
+    width: 100%;
+
+}
 /* Ajuste para notebooks */
 @media screen and (max-width: 1366px) {
     .container {
