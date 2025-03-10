@@ -67,6 +67,7 @@
         }
 
         .containter__h2 {
+            padding: 1%;
             font-family: var(--fonte-titulos);
             color: var(--cor-secundaria);
         }
