@@ -76,15 +76,15 @@
             font-weight: 400;
             color: var(--cor-secundaria);
         }
+        
         footer {
-            width: 100%;
             background-color: var(--cor-secundaria);
             color: var(--bg-color);
-            font-family: var(--fonte-primaria);
-            padding: 1%;
+            padding: 10px;
             position: relative;
             bottom: 0;
-            margin-top: 2%;
+            width: 100%;
+            margin-top: 20px;
         }
 
        
