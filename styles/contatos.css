@@ -8,8 +8,8 @@
     --cor-secundaria: #143F6B;
     --cor-terciaria: #F55353;
     --cor-quartenaria: #F6F54D;
-    --background: #F6F6F6;
     --box-color: #f9f9f9;
+    --bg-color: #F7F7F7;
 
     --fonte-primaria: "Montserrat", sans-serif;
     --fonte-titulos: "Barlow", sans-serif;
@@ -20,6 +20,7 @@
     padding: 0;
 }
 body {
+    background-color: var(--bg-color);
     font-family: var(--fonte-primaria);
     margin: 0;
     padding: 0;
@@ -70,7 +71,7 @@ nav ul li a {
     margin: 10px;
     padding: 10px 20px;
     border-radius: 5px;
-    color: var(--background);
+    color: var(--box-color);
     text-decoration: none;
     font-size: 18px;
 }
@@ -82,7 +83,7 @@ nav ul li a {
 }
 footer {
     background-color: var(--cor-secundaria);
-    color: var(--background);
+    color: var(--bg-color);
     padding: 10px;
     position: relative;
     bottom: 0;
