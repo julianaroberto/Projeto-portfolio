@@ -40,6 +40,9 @@
 
 /* Ajuste para celulares (Android e iOS) */
 @media screen and (max-width: 768px) {
+    img {
+        width: 80%;
+    }
     h2, h3 {
         font-size: 1.2em;
     }
