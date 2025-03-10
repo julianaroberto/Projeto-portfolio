@@ -27,7 +27,7 @@
         header {
             width: 100%;
             background-color: var(--cor-primaria);
-            padding: 25px;
+            padding: 15px;
         }
         .menu__nav {
             list-style: none;

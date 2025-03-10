@@ -23,11 +23,10 @@
 body {
     background-color: var(--bg-color);
     font-family: var(--fonte-primaria);
-    margin: 0;
-    padding: 0;
     text-align: center;
 }
 header {
+    width: 100%;
     background-color: var(--cor-primaria);
     padding: 15px;
 }

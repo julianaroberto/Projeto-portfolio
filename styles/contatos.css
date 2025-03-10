@@ -25,6 +25,7 @@ body {
     text-align: center;
 }
 header {
+    width: 100%;
     background-color: var(--cor-primaria);
     padding: 15px;
 }
