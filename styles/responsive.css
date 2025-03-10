@@ -1,0 +1,52 @@
+/* Estilos para tornar o site responsivo */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajuste do layout para telas menores */
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    .service, .contact-box, .social-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    .service img {
+        width: 100%;
+    }
+    .service .text, .contact-box p {
+        width: 100%;
+    }
+}
+
+/* Ajuste para tablets */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
+
+/* Ajuste para celulares */
+@media screen and (max-width: 480px) {
+    h2, h3 {
+        font-size: 1.2em;
+    }
+    .container {
+        padding: 10px;
+    }
+    .social-box a {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+}
